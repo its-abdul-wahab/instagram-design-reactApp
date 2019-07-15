@@ -174,13 +174,13 @@ main .post_main img.post{
 
 main .post_footer{
     width: 600px;
-    height: 270px;
+    height: 120px;
     position: absolute;
     margin-top: 600px;
     background: white;
     margin-top: 650px;
     border: .5px solid lightgray;
-    border-bottom: none;
+    /* border-bottom: none; */
     border-radius: 1px;
     display: flex;
     flex-direction: row;
@@ -199,27 +199,48 @@ main .post_footer .post_buttons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-space;
+    
 }
 
 .post_buttons .like_btn{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     
 }
 
 .post_buttons .comment_btn{
-    width: 25px;
-    height: 25px;
-    margin-bottom: 3px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    top: 17px;
     
 }
 
-/* .post_buttons img.share_btn{
-    width: 25px;
-    height: 25px;
+.no_of_likes{
+    font-family: inherit;
+    font-weight: bolder;
+    position: relative;
+    top: 45px;
+    left: -95px; 
+    color: #262626;
+    font-size: 12px;
+}
+
+h3.username_2{
     position: absolute;
-    margin-top: 500px;
-    background: black;
-} */
+    top: 70px;
+    left: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'proxima-nova', Helvetica, sans-serif;
+}
+
+p.description{
+    margin-top: 30px;
+    margin-left: 160px;
+}

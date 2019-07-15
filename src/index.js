@@ -26,7 +26,7 @@ const values = {
      postImage3: require('./components/images/postImage3.jpg'),
      likeBtn: require('./components/images/like.png'),
      commentBtn: require('./components/images/comment.png'),
-     shareBtn: require('./components/images/share.svg')
+     shareBtn: require('./components/images/share.png')
 };
 ReactDOM.render(<Instagram data={values}/>, document.getElementById("root"))
 

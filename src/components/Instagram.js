@@ -21,7 +21,7 @@ const Instagram = (props)=>{
                 {/* post header Dp, name, location */}
                 <div className='post_header'>
                     <img  src={props.data.profile} className='profile_pic' alt='main post profile'/>
-                    <h2 className='usernamePost'>username</h2>
+                    <h2 className='usernamePost'>binary_case_10</h2>
                     <p className='location'>{props.data.location}</p>
                 </div> 
                {/* main post */}
@@ -35,41 +35,85 @@ const Instagram = (props)=>{
                         <img src={props.data.commentBtn} className="comment_btn"/>
                         <img src={props.data.shareBtn} className="share_btn"/>
                     </div>
-                        <p className='no_of_likes'></p>
+                    
+                    <p className='no_of_likes'> 16,694 likes</p>
                     
                     <div className='post-caption'>
-                        {/* <h3 className='username'>username</h3> */}
-                        <p className='description'></p>
+                        <h3 className='username_2'>binary_case_10</h3>
+                        <p className='description'>
+                        Double tap and share 💪Follow @motivation_mondays for more daily quotes!
+                        </p>
                     </div>
-                </div>
+                    </div>
+                </main>
 
-                {/* adding more  posts that you want */}
-                {/* <div className='post_header'>
-                    <img  src={props.data.profile} className='profile_pic' alt='main post profile'/>
-                    <h2 className='usernamePost'>username</h2>
-                    <p className='location'>{props.data.location}</p>
-                </div> 
-               
-                <div className='post_main'>
-                    <img  src={props.data.postImage2} className='post'  alt='post'/>
-                </div> */}
-
-{/*                 
+                {/* post of instagram -2 */}
+            <main className='posts_container'>
+                {/* post header Dp, name, location */}
                 <div className='post_header'>
                     <img  src={props.data.profile} className='profile_pic' alt='main post profile'/>
-                    <h2 className='usernamePost'>username</h2>
+                    <h2 className='usernamePost'>binary_case_10</h2>
                     <p className='location'>{props.data.location}</p>
                 </div> 
-               
+               {/* main post */}
+                <div className='post_main'>
+                    <img  src={props.data.postImage2} className='post'  alt='post'/>
+                </div>
+
+                <div className='post_footer'>
+                    <div className='post_buttons'>
+                        <img src={props.data.likeBtn} className="like_btn"/>
+                        <img src={props.data.commentBtn} className="comment_btn"/>
+                        <img src={props.data.shareBtn} className="share_btn"/>
+                    </div>
+                    
+                    <p className='no_of_likes'> 16,694 likes</p>
+                    
+                    <div className='post-caption'>
+                        <h3 className='username_2'>binary_case_10</h3>
+                        <p className='description'>
+                        Double tap and share 💪Follow @motivation_mondays for more daily quotes!
+                        </p>
+                    </div>
+                    </div>
+                </main>
+
+                {/* post of instagram */}
+            <main className='posts_container'>
+                {/* post header Dp, name, location */}
+                <div className='post_header'>
+                    <img  src={props.data.profile} className='profile_pic' alt='main post profile'/>
+                    <h2 className='usernamePost'>binary_case_10</h2>
+                    <p className='location'>{props.data.location}</p>
+                </div> 
+               {/* main post */}
                 <div className='post_main'>
                     <img  src={props.data.postImage3} className='post'  alt='post'/>
-                </div> */}
-                
+                </div>
+
+                <div className='post_footer'>
+                    <div className='post_buttons'>
+                        <img src={props.data.likeBtn} className="like_btn"/>
+                        <img src={props.data.commentBtn} className="comment_btn"/>
+                        <img src={props.data.shareBtn} className="share_btn"/>
+                    </div>
+                    
+                    <p className='no_of_likes'> 16,694 likes</p>
+                    
+                    <div className='post-caption'>
+                        <h3 className='username_2'>binary_case_10</h3>
+                        <p className='description'>
+                        Double tap and share 💪Follow @motivation_mondays for more daily quotes!
+                        </p>
+                    </div>
+                    </div>
+                </main> 
+        </div>
+               
                 
 
                
-            </main>
-        </div>
+         
     );
 }
 
